@@ -5,3 +5,5 @@
 2. Jogo de Pedra, papel e tesoura
 
 3. Conversor de Moedas
+
+4. Gráfico de Ações
