@@ -9,3 +9,5 @@
 4. Gráfico de Ações
 
 5. Extrator
+
+6. Removedor de fundos 
