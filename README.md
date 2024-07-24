@@ -7,3 +7,5 @@
 3. Conversor de Moedas
 
 4. Gráfico de Ações
+
+5. Extrator
