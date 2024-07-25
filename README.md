@@ -11,3 +11,9 @@
 5. Extrator
 
 6. Removedor de fundos 
+
+7.
+
+8.
+
+9.
