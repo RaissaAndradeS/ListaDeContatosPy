@@ -12,7 +12,7 @@
 
 6. Removedor de fundos 
 
-7.
+7. Sistema de previsões 
 
 8.
 
