@@ -23,3 +23,13 @@ Ideia de programação é a criação de um conjunto de instruções lógicas qu
 
 ````print("Olá, mundo!")````
 
+## nomes.py
+````
+- # $$
+
+print("Rai")
+print("Nah")
+
+shift+enter
+
+````
