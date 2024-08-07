@@ -34,3 +34,17 @@ else:
     print("Escolha algo válido.")
 
 print("Seu sorvete", tipo_sorvete, "de", sabor, "cobertura", cobertura, "é de R$:", valor)
+
+
+## Outra forma 
+
+coberturas = 'caramelo, morango, chocolate'
+
+if cobertura in coberturas:
+    valor += 1.50
+
+elif cobertura == '':
+    pass
+
+else: 
+    print("Seu pedido virá cagado, entre com uma cobertura válida")
