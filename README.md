@@ -14,6 +14,6 @@
 
 7. Sistema de previsões 
 
-8.
+8. Automação 
 
 9.
