@@ -26,10 +26,28 @@ else:
 
 lista = "laranja, cerveja, miojo, carvão, picanha"
 
-item = input("O que vocÊ quer comprar?  [laranja, cerveja, miojo, carvão, picanha] ")
+item = input("O que você quer comprar?  [laranja, cerveja, miojo, carvão, picanha] ")
 
 if item in lista:
     print("Pode passar!")
 
 else: 
     print("Num tem esse item!")
+
+
+## Outro 
+
+palavra = input("Digite uma palavra: ")
+
+qtde = 0
+for i in palavra:
+    if i == "a":
+        qtde += 1
+
+print("A letra 'a' possui", qtde, "ocorrencias na palavra", palavra)
+
+
+## Outro 
+
+palavra = 'banana'
+palavra.count("a")
