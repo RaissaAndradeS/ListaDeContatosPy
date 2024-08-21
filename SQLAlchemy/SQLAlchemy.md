@@ -16,3 +16,9 @@ A Engine é o coração de tudo, é uma fábica de conexões com o banco de dado
 <center> Engine -> dialeto -> DBAPI </center>
 
 Existe vários dialetos possíveis padrões dentro do SQLAlchemy. E existe vários plugins para outros. 
+
+Após a conexão, no 'pool' o reservatório de conexões. Chega, pede conexão para o banco e após criar, ele não fecha a conexão. 
+Um exemplo é o ```print(engine.pool)```. 
+
+
+
