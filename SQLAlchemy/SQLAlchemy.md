@@ -20,5 +20,7 @@ Existe vários dialetos possíveis padrões dentro do SQLAlchemy. E existe vári
 Após a conexão, no 'pool' o reservatório de conexões. Chega, pede conexão para o banco e após criar, ele não fecha a conexão. 
 Um exemplo é o ```print(engine.pool)```. 
 
+Schemas/Types - são metadados das tabelas que podem ser descritos com Schemas e seus determinados Tipos.
 
-
+```
+```
