@@ -22,5 +22,4 @@ Um exemplo é o ```print(engine.pool)```.
 
 Schemas/Types - são metadados das tabelas que podem ser descritos com Schemas e seus determinados Tipos.
 
-```
-```
+Reflection - funções de inspeções são agregadas a contrução de schemas, para evitar a criação dos metadados em um banco que já existe

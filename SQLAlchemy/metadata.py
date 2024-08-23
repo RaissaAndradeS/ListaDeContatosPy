@@ -24,6 +24,10 @@ import sqlalchemy as sa
 metadata = sa.metadata()
 engine = sa.create_engine('sqlite:///database.db')
 
-sa.inspect(engine)
-print(inspect.get_table_names())
-print(inspect.get_table_columns())
+t = sa.Table('comments', metadata, autoload_with=engine)
+
+print(t.columns)
+
+# sa.inspect(engine)
+# print(inspect.get_table_names())
+# print(inspect.get_table_columns())
