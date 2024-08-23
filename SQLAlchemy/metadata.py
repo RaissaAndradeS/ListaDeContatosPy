@@ -16,3 +16,14 @@ t = sa.Table(
 engine = sa.create_engine('sqlite:///database.db')
 
 metadata.create_all(engine)
+
+## Outra forma 
+
+import sqlalchemy as sa 
+
+metadata = sa.metadata()
+engine = sa.create_engine('sqlite:///database.db')
+
+sa.inspect(engine)
+print(inspect.get_table_names())
+print(inspect.get_table_columns())
