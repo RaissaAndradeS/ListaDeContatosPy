@@ -22,4 +22,10 @@ Um exemplo é o ```print(engine.pool)```.
 
 Schemas/Types - são metadados das tabelas que podem ser descritos com Schemas e seus determinados Tipos.
 
-Reflection - funções de inspeções são agregadas a contrução de schemas, para evitar a criação dos metadados em um banco que já existe
+Reflection - funções de inspeções são agregadas a contrução de schemas, para evitar a criação dos metadados em um banco que já existe.
+
+Todas as operações feitas até aqui com o banco, foram com a função text() e sql escrito na mão.
+No core tem um grupo de funções e objetos que ajudam a montar o sql:
+- DQL: Data Query Language.
+- DML: Data Manipulation Language.
+
