@@ -35,3 +35,7 @@ t = sa.Table('comments', metadata, autoload_with=engine)
 sql = sa.select(t)
 
 print(sql)
+
+with engine.connect() as con:
+    con.execute(sql)
+    print(result.fetchmany(10))
