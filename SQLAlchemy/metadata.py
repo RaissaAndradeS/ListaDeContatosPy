@@ -1,19 +1,19 @@
-import sqlalchemy as sa 
+import sqlalchemy import create_engine, metadata, Table, select 
 
-metadata = sa.metadata()
+metadata = metadata()
 
-t = sa.Table(
+t = Table(
     'comments', 
     metadada, 
-    sa.Column('id', sa.Integer(), nullable=False),
-    sa.Column('name', sa.String(), nullable=False),
-    sa.Column('comment', sa.String(), nullable=False),
-    sa.Column('live', sa.String(), nullable=False),
-    sa.Column('created_at', sa.DateTime(), nullable=True),
-    sa.PrimaryKeyConstraint('id')
+    Column('id', sa.Integer(), nullable=False),
+    Column('name', sa.String(), nullable=False),
+    Column('comment', sa.String(), nullable=False),
+    Column('live', sa.String(), nullable=False),
+    Column('created_at', sa.DateTime(), nullable=True),
+    PrimaryKeyConstraint('id')
 )
 
-engine = sa.create_engine('sqlite:///database.db')
+engine = create_engine('sqlite:///database.db')
 
 metadata.create_all(engine)
 
@@ -26,8 +26,12 @@ engine = sa.create_engine('sqlite:///database.db')
 
 t = sa.Table('comments', metadata, autoload_with=engine)
 
-print(t.columns)
+
 
 # sa.inspect(engine)
 # print(inspect.get_table_names())
 # print(inspect.get_table_columns())
+
+sql = sa.select(t)
+
+print(sql)
