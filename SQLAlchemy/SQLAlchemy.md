@@ -29,3 +29,8 @@ No core tem um grupo de funções e objetos que ajudam a montar o sql:
 - DQL: Data Query Language.
 - DML: Data Manipulation Language.
 
+ORM - Object Relational Mapper.
+
+- Object: objeto python como uma classe
+- Relational: relacional é em relação aos bancos relacionais
+- Mapper: é feito um mapeamento entre os metadados das tabelas em uma classe e cada row é relacionada a uma instância
