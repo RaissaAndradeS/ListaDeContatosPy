@@ -1,4 +1,5 @@
-# Projetos de Python
+
+# Projetos de Python e exercicios de Python
 
 1. Como criar uma lista de contatos em Python
 
@@ -19,3 +20,5 @@
 9. Tela em Python
 
 10. Cripografia de senha 
+
+
